@@ -13,3 +13,30 @@ table {
   tr:nth-child(even) {
     background-color: #ddd;
   }
+  .class1{
+    border: 1px solid #111;
+    margin: 10px;
+  }
+  #img1:hover{
+    width: 70%;
+  }
+  #img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  p{
+    font-family: Verdana,sans-serif;
+  }
+  ol{
+    line-height: 2;
+  }
+  ul{
+    list-style-type: circle;
+    animation: change_type 5s linear 2s infinite reverse;
+  }
+  @keyframes change_type {
+    from {list-style-type: circle;}
+    to {list-style-type: square;}
+  }
